@@ -94,7 +94,7 @@ ls
 ssh-keygen 
 ```
 
-进入 ~/.ssh 目录，查看 id_rsa.pub 文件，复制里面的内容，将其纳入你的 Github 账号的 SSH 管理中。
+进入 `~/.ssh` 目录，查看 `id_rsa.pub` 文件，复制里面的内容，将其纳入你的 Github 账号的 SSH 管理中。
 
 
 测试链接是否成功。
