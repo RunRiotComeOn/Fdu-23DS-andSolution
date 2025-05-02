@@ -19,12 +19,23 @@ git clone https://github.com/your-username/your-repository.git
 cd your-repository
 git init
 ```
-- **注意**： `git` 初始化的作用是生成一个 `.git` 目录，里面包含了仓库的版本信息，追踪你的改动，使之与远程仓库同步。
+- **注意**： `git` 初始化的作用是生成一个 `.git` 目录，里面包含了仓库的版本信息，追踪你的改动，使之与远程仓库同步。如果成功，会输出：
+  ```
+  Initialized Git repository in /path/to/your-repository
+  ```
 
 接着，你就可以在本地创建分支 `new-branch` ，在这个分支下编辑代码。
 ```bash
 git branch new-branch
+```
+
+换到此分支进行操作。
+```bash
 git checkout new-branch
+```
+会输出结果：
+```
+Switched to branch 'new-branch'
 ```
 
 在编辑完成之后，你可以查看你改动的地方。
